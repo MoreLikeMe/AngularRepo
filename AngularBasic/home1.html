@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Practice Angular Js</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="angularScript1.js"></script>
+</head>
+<body ng-app="oudh" ng-controller="oudhControl">
+<p>Type Name: <input type="text" ng-model="name"></p>
+<p>Type Colour: <input type="text" ng-model="rong"></p>
+<h2 ng-click="pordaSorao()">The Name is: <span style="color:{{rong}}" >{{name}}</span></h2>
+<h3 ng-hide="IsHide">Heyy.. I was hidden earlier</h3>
+</body>
+</html>
