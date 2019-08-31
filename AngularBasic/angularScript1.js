@@ -7,6 +7,7 @@ $scope.pordaSorao = function(){
 }
 });
 
+/*Most Basic Angular Js..*/
 
 /*need to know ng-show ng-hide ng-click ng-route
 for ng-route need to provide the dependency in app*/
